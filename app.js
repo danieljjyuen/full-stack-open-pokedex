@@ -10,7 +10,7 @@ app.get('/health', (req, res) => {
 })
 
 app.get('/version', (req, res) => {
-  res.send(version)
+  res.send('1')
 })
 app.listen(PORT, () => {
   console.log('server started on port 5000')
